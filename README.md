@@ -4,7 +4,7 @@ The predicition model will be released and public avaliable for the academic pur
 
 ## Conda installation and enviroment set-up
 Please check the following link for conda installation> https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
-
+                
 After conda installation, please search the "endotype_pred.yml" in the folder of env for enviroment set/up, with the following script in terminal>
 ```
 conda create env --file env/endotype_pred.yml
@@ -14,7 +14,7 @@ conda create env --file env/endotype_pred.yml
 Please organize your data with the following order (by columns):
 
 | Variable                | Description                             |
-|-------------------------|-----------------------------------------|
+|:------------------------|:----------------------------------------|
 | Gender                  | 0: male, 1: female                      |
 | Hypertension            | 0: no, 1: yes                           |
 | Diabetes                | 0: no, 1: yes                           |
@@ -23,7 +23,7 @@ Please organize your data with the following order (by columns):
 | SBP                     | mmHg                                    |
 | DBP                     | mmHg                                    |
 | BMI                     | kg/m²                                   |
-| Waist-hip ratio         |                                         |
+| Waist-hip ratio         |     78                                                                                                  |
 | Hb                      | dg/L                                    |
 | Total Cholesterol       | mmol/L                                  |
 | LDL Cholesterol         | mmol/L                                  |
@@ -93,9 +93,13 @@ Please organize your data with the following order (by columns):
 | UPAR                    |                                         |
 | VEGFD                   |                                         |
 
-
+For the OLINK protein, please use the Z-scores in your own cohort.
 Save the dataset as csv file, with sep of ",".
 
 ## endotype prediction
-
-
+Supposed we save the data for prediction in folder of data, then the endotype can be predicted as follow
+```
+python endotype_pred.py --file data/exmaple_data.csv --output output.csv
+```
+After running this command, the file output.csv will include a new column of pred_endotype indicating the predicted endotype in your cohort.
+You can specify the directory of input file by --file or -f, and specify the output file directory and name by --output or -o
