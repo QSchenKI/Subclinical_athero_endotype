@@ -1,7 +1,7 @@
 # Subclinical carotid atheroclerosis endotype prediction
 The predicition model will be released and public avaliable for the academic purpose.
 
-The model was tested in Linux environment only through theoretically it also apply to MacOS or window.
+The model was tested in Linux environments only but theoretically, it also applies to MacOS or Windows.
 
 ## Conda installation and enviroment set-up
 Please check the following link to install conda https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
