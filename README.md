@@ -1,16 +1,18 @@
 # Subclinical carotid atheroclerosis endotype prediction
 The predicition model will be released and public avaliable for the academic purpose.
 
+The model was tested in Linux environment only through theoretically it also apply to MacOS or window.
+
 ## Conda installation and enviroment set-up
-Please check the following link for conda installation> https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
-                
-After conda installation, please search the "endotype_pred.yml" in the folder of env for enviroment set/up, with the following script in terminal>
+Please check the following link to install conda https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
+
+After conda installation, please search the "endotype_pred.yml" in the folder of env for environment set/up, with the following script in the terminal:
 ```
 conda create env --file env/endotype_pred.yml
 ```
 
 ## data preparation for endotype prediction in your cohort
-Please organize your data with the following order (by columns):
+Please organize your data in the following order (by columns):
 
 | Variable                | Description                             |
 |:------------------------|:----------------------------------------|
@@ -94,23 +96,23 @@ Please organize your data with the following order (by columns):
 
 For the OLINK protein, please use the Z-scores in your own cohort.
 Save the dataset as csv file, with sep of ",".
-## Activate endotype_pred enviroment
+## Activate endotype_pred environment
 ```
 conda activate endotype_pred
 ```
 After running this command, you will expect that (endotype_pred) shown in your terminal if everything goes well.
 
 ## endotype prediction
-Supposed we save the data for prediction in folder of data, then the endotype can be predicted as follow
+Supposed we save the data for prediction in the folder of data, then the endotype can be predicted as follow
 ```
 python endotype_pred.py --file data/exmaple_data.csv --output output.csv
 ```
 After running this command, the file output.csv will include a new column of pred_endotype indicating the predicted endotype in your cohort.
-You can specify the directory of input file by --file or -f, and specify the output file directory and name by --output or -o
+You can specify the directory of the input file by --file or -f, and specify the output file directory and name by --output or -o
 
-## Deactivate endotype_pred enviroment
+## Deactivate endotype_pred environment
 ```
 conda deactivate
 ```
-The command brings you back to your original base enviroment and now you will start to proceed other project.
+The command brings you back to your original base environment and now you can proceed with your other projects without influence by the endotype_pred environment.
 
