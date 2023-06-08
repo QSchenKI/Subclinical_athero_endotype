@@ -1,5 +1,4 @@
-# Subclinical_athero_endotype
-Subclinical atherosclerosis endotype prediction
+# Subclinical carotid atheroclerosis endotype prediction
 The predicition model will be released and public avaliable for the academic purpose.
 
 ## Conda installation and enviroment set-up
@@ -95,6 +94,11 @@ Please organize your data with the following order (by columns):
 
 For the OLINK protein, please use the Z-scores in your own cohort.
 Save the dataset as csv file, with sep of ",".
+## Activate endotype_pred enviroment
+```
+conda activate endotype_pred
+```
+After running this command, you will expect that (endotype_pred) shown in your terminal if everything goes well.
 
 ## endotype prediction
 Supposed we save the data for prediction in folder of data, then the endotype can be predicted as follow
@@ -103,3 +107,10 @@ python endotype_pred.py --file data/exmaple_data.csv --output output.csv
 ```
 After running this command, the file output.csv will include a new column of pred_endotype indicating the predicted endotype in your cohort.
 You can specify the directory of input file by --file or -f, and specify the output file directory and name by --output or -o
+
+## Deactivate endotype_pred enviroment
+```
+conda deactivate
+```
+The command brings you back to your original base enviroment and now you will start to proceed other project.
+
