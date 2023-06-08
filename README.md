@@ -102,7 +102,7 @@ conda activate endotype_pred
 ```
 After running this command, you will expect that (endotype_pred) shown in your terminal if everything goes well.
 
-## endotype prediction
+## Endotype prediction
 Supposed we save the data for prediction in the folder of data, then the endotype can be predicted as follow
 ```
 python endotype_pred.py --file data/exmaple_data.csv --output output.csv
