@@ -5,8 +5,10 @@ The model was tested in Linux environments only but theoretically, it also appli
 
 ## Before set-up
 ./ refers to the current directory (Subclinical_athero_endotype/).
+
 ./path refers to the sub-directory within the Subclinical_athero_endotype/
 The author suggests to set-up a virtual environment for endotype prediction so that your regular working environment won't be impacted by the dependency package.
+
 In this README file of text, ./ will be intentionally presented to specify the directory. For sure you can take it away when you are using the model.
 
 The model has no requirement of the nomenclature for variables in the current version, but the model will ask the user to check whether the variables input match what it expects.
