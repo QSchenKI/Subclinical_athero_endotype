@@ -115,7 +115,7 @@ After running this command, you will expect that (endotype_pred) shown in your t
 ## Endotype prediction
 Supposed we save the data for prediction in the folder of ./data, then the endotype can be predicted as follow
 ```
-python endotype_pred.py --file data/exmaple_data.csv --output output.csv
+python endotype_pred.py --file ./data/exmaple_data.csv --output ./output.csv
 ```
 After running this command, the file output.csv will include a new column of pred_endotype indicating the predicted endotype in your cohort.
 You can specify the directory of the input file by --file or -f, and specify the output file directory and name by --output or -o
