@@ -42,7 +42,7 @@ Please organize your data in the following order (by columns):
 | Triglycerides           | mmol/L                                  |
 | Glucose                 | mmol/L                                  |
 | C-reactive Protein      | mg/L                                    |
-| estimated glomerular filtration rate|                             |
+| estimated glomerular filtration rate| cockcroft and gault formula |
 | AGRP                    |                                         |
 | CCL3                    |                                         |
 | CD40L                   |                                         |
