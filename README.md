@@ -1,5 +1,5 @@
 # Subclinical carotid atheroclerosis endotype prediction
-The predicition model will be released and public avaliable for the academic purpose.
+The predicition model will be released and public avaliable for the academic purpose. For
 
 The model was tested in Linux environments only but theoretically, it also applies to MacOS or Windows.
 
@@ -42,7 +42,7 @@ Please organize your data in the following order (by columns):
 | Triglycerides           | mmol/L                                  |
 | Glucose                 | mmol/L                                  |
 | C-reactive Protein      | mg/L                                    |
-| eGFR                    |                                         |
+| estimated glomerular filtration rate|                             |
 | AGRP                    |                                         |
 | CCL3                    |                                         |
 | CD40L                   |                                         |
