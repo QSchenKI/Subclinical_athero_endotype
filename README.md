@@ -1,7 +1,10 @@
 # Subclinical carotid atheroclerosis endotype prediction
 
 ## Before using
-Please note that the Endotype Prediction Tool is exclusively intended for academic purposes and is publicly available for non-profit educational, research, and academic use. Any commercial usage or inquiries regarding commercial licensing should be directed to Bruna Gigante (bruna.gigante@ki.se) and Qiaosen Chen (chen.qiaosen@ki.se).
+
+Please note that the Endotype Prediction Tool is exclusively intended for academic purposes and is publicly available for non-profit educational, research, and academic use. Any commercial usage or inquiries regarding commercial licensing should be directed to Bruna Gigante (bruna.gigante@ki.se) and Qiaosen Chen (chen.qiaosen@ki.se). 
+
+For any questions or bug reports during usage, please contact chen.qiaosen@ki.se.
 
 The model was tested in Linux environments only but theoretically, it also applies to MacOS or Windows.
 
