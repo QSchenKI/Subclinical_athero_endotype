@@ -26,7 +26,7 @@ After conda installation, please search the "endotype_pred.yml" in the folder of
 conda create env --file ./env/endotype_pred.yml
 ```
 
-## data preparation for endotype prediction in your cohort
+## Data preparation for endotype prediction in your cohort
 Please organize your data in the following order (by columns):
 
 | Variable                | Description                             |
