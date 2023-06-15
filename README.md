@@ -1,12 +1,18 @@
 # Subclinical carotid atheroclerosis endotype prediction
 
+## Background
+
+This subclinical acrotid atherosclerosis endotype prediction is ...
+
 ## Before using
+
+We much appreciate it if you could cite the paper when using the tool.
 
 Please note that the Endotype Prediction Tool is exclusively intended for academic purposes and is publicly available for non-profit educational, research, and academic use. Any commercial usage or inquiries regarding commercial licensing should be directed to Bruna Gigante (bruna.gigante@ki.se) and Qiaosen Chen (chen.qiaosen@ki.se). 
 
 For any questions or bug reports during usage, please contact chen.qiaosen@ki.se.
 
-The model was tested in Linux environments only but theoretically, it also applies to MacOS or Windows.
+The prediction tool was developed by Qiao Sen, Chen and tested by Otto Bergman. The development and testing environment is Linux but theoretically, it also applies to MacOS or Windows.
 
 ## Before set-up
 ./ refers to the current directory (Subclinical_athero_endotype/).
