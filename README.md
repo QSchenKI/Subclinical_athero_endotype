@@ -2,7 +2,7 @@
 
 ## Background
 
-This subclinical acrotid atherosclerosis endotype prediction is ...
+This is the software for subclinical carotid atherosclerosis endotype prediction.
 
 ## Before using
 
