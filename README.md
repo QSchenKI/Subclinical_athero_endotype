@@ -1,4 +1,4 @@
-# Subclinical atherosclerosis endotype (sAtheroEnd) prediction
+# Atherosclerosis Subclinical Endotype Prediction (ASep)
 
 ## Background
 
