@@ -1,4 +1,4 @@
-# Subclinical carotid atheroclerosis endotype prediction
+# Subclinical atherosclerosis endotype (SAE) prediction
 
 ## Background
 
