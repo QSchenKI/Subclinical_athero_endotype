@@ -1,4 +1,4 @@
-# Subclinical atherosclerosis endotype (SAE) prediction
+# Subclinical atherosclerosis endotype (sAtheroEnd) prediction
 
 ## Background
 
